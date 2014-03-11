@@ -1,0 +1,57 @@
+niyonzima@niyonzima-VirtualBox:~$ mkdir tested
+niyonzima@niyonzima-VirtualBox:~$ cd tested
+niyonzima@niyonzima-VirtualBox:~/tested$ nano list.sh
+niyonzima@niyonzima-VirtualBox:~/tested$ chmod 755 list.sh
+niyonzima@niyonzima-VirtualBox:~/tested$ ls
+list.sh
+niyonzima@niyonzima-VirtualBox:~/tested$ ls -la
+total 12
+drwxrwxr-x  2 niyonzima niyonzima 4096 Mar  8 13:09 .
+drwxr-xr-x 31 niyonzima niyonzima 4096 Mar  8 13:05 ..
+-rwxr-xr-x  1 niyonzima niyonzima  149 Mar  8 13:09 list.sh
+niyonzima@niyonzima-VirtualBox:~/tested$ ./list.sh john peter sifa kamimi kadada
+john peter sifa kamimi kadada
+ 5 names have been addae 
+niyonzima@niyonzima-VirtualBox:~/tested$ ./list.sh elliade simeon gatera
+elliade simeon gatera
+ 3 names have been addae 
+niyonzima@niyonzima-VirtualBox:~/tested$ git config --global user.name "niyonzima"
+niyonzima@niyonzima-VirtualBox:~/tested$ git config --global user.email "jniyonzimap@gmail.com"
+niyonzima@niyonzima-VirtualBox:~/tested$ git init
+Initialized empty Git repository in /home/niyonzima/tested/.git/
+niyonzima@niyonzima-VirtualBox:~/tested$ ls -la
+total 20
+drwxrwxr-x  3 niyonzima niyonzima 4096 Mar  8 13:16 .
+drwxr-xr-x 31 niyonzima niyonzima 4096 Mar  8 13:16 ..
+drwxrwxr-x  7 niyonzima niyonzima 4096 Mar  8 13:16 .git
+-rwxr-xr-x  1 niyonzima niyonzima  149 Mar  8 13:09 list.sh
+-rw-rw-r--  1 niyonzima niyonzima   56 Mar  8 13:12 names.txt
+niyonzima@niyonzima-VirtualBox:~/tested$ ./list.sh celestin charlotte isidore
+celestin charlotte isidore
+ 3 names have been addae 
+niyonzima@niyonzima-VirtualBox:~/tested$ git status
+# On branch master
+#
+# Initial commit
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#       list.sh
+#       names.txt
+nothing added to commit but untracked files present (use "git add" to track)
+niyonzima@niyonzima-VirtualBox:~/tested$ git add list.sh
+niyonzima@niyonzima-VirtualBox:~/tested$ git add names.txt
+niyonzima@niyonzima-VirtualBox:~/tested$ git add .
+niyonzima@niyonzima-VirtualBox:~/tested$ git commit -m 'first file commit'
+[master (root-commit) 2e1a327] first file commit
+ 2 files changed, 10 insertions(+)
+ create mode 100755 list.sh
+ create mode 100644 names.txt
+niyonzima@niyonzima-VirtualBox:~/tested$ git log
+commit 2e1a32760c2794519af87d6bd404241223f2fe2c
+Author: niyonzima <jniyonzimap@gmail.com>
+Date:   Sat Mar 8 13:25:29 2014 +0200
+
+    first file commit
+niyonzima@niyonzima-VirtualBox:~/tested$ 

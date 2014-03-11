@@ -1,0 +1,50 @@
+argmnt 5=harry                                                                                                                                 
+ 5 names have been added                                                                                                                       
+niyonzima@niyonzima-VirtualBox:~/testedb$ git config  -- global user.name "emmanuelmukiza"
+error: key does not contain a section: global                                                                                                  
+niyonzima@niyonzima-VirtualBox:~/testedb$ git config --global user.name "emmanuelmukiza"
+niyonzima@niyonzima-VirtualBox:~/testedb$ git config --global user.emmail "mukizaemma@gmail.com"
+niyonzima@niyonzima-VirtualBox:~/testedb$ git config --global user.email "mukizaemma@gmail.com"                                                
+niyonzima@niyonzima-VirtualBox:~/testedb$ git init                                                                                             
+Initialized empty Git repository in /home/niyonzima/testedb/.git/                                                                              
+niyonzima@niyonzima-VirtualBox:~/testedb$ ls --la                                                                                              
+ls: unrecognized option '--la'                                                                                                                 
+Try `ls --help' for more information.                                                                                                          
+niyonzima@niyonzima-VirtualBox:~/testedb$ git add names.txt                                                                                    
+niyonzima@niyonzima-VirtualBox:~/testedb$ git add script.sh
+niyonzima@niyonzima-VirtualBox:~/testedb$ git add .
+niyonzima@niyonzima-VirtualBox:~/testedb$ git status
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#       new file:   names.txt
+#       new file:   script.sh
+#
+niyonzima@niyonzima-VirtualBox:~/testedb$ git commit -m 'linux assignment'
+[master (root-commit) c58cd90] linux assignment
+ 2 files changed, 15 insertions(+)
+ create mode 100644 names.txt
+ create mode 100755 script.sh
+niyonzima@niyonzima-VirtualBox:~/testedb$ git log
+commit c58cd90f5bede130a32010d967991c12563f5e4c
+Author: emmanuelmukiza <mukizaemma@gmail.com>
+Date:   Sat Mar 8 21:56:41 2014 +0200
+
+    linux assignment
+niyonzima@niyonzima-VirtualBox:~/testedb$ git remote add origin https://github.com/emmanuelmukiza/tested.git
+niyonzima@niyonzima-VirtualBox:~/testedb$ git push -u origin master
+Username for 'https://github.com': emmanuelmukiza                                                                                              
+Password for 'https://emmanuelmukiza@github.com':                                                                                              
+Counting objects: 4, done.                                                                                                                     
+Compressing objects: 100% (3/3), done.                                                                                                         
+Writing objects: 100% (4/4), 408 bytes, done.                                                                                                  
+Total 4 (delta 0), reused 0 (delta 0)                                                                                                          
+To https://github.com/emmanuelmukiza/tested.git                                                                                                
+ * [new branch]      master -> master                                                                                                          
+Branch master set up to track remote branch master from origin.                                                                                
+niyonzima@niyonzima-VirtualBox:~/testedb$                                                                                                      
+                                             

@@ -1,0 +1,42 @@
+  GNU nano 2.2.6                                  File: largefile.txt                                                                Modified  
+
+inux is very ambiquitous means is available and used in all operation computers and mobile phones.
+It runs by webservers,routers,computerapplesand mobiles
+anddroide is version of linuc created by google for  phones
+Kernel;Masters control program that performs low level tasksslike startiing and  stopping programs,managing the file systems and managing
+the hardawre.
+Each task runs by linux is colled processes
+linus handled manysimultaneous tasks
+Also many people can use linux sytsem at the same servers
+All RESOURCES  IN LINUX ARE FILES.This inllude:
+-program
+-documents
+
+To run command on liinux system you need to start a program colled the teminal
+In ubuntu the  termiinal can be acccsed throuth:
+-application
+-accessories and terminal .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+File Name to Write: largefile.txt                                                                                                              
+^G Get Help                        M-D DOS Format                     M-A Append                         M-B Backup File
+^C Cancel                          M-M Mac Format                     M-P Prepend

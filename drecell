@@ -1,0 +1,69 @@
+niyonzima@niyonzima-VirtualBox:~/testedb$ cd
+niyonzima@niyonzima-VirtualBox:~$ mkdir testedc
+niyonzima@niyonzima-VirtualBox:~$ cd testedc
+niyonzima@niyonzima-VirtualBox:~/testedc$ nano script.sh
+niyonzima@niyonzima-VirtualBox:~/testedc$ ls
+script.sh
+niyonzima@niyonzima-VirtualBox:~/testedc$ ls -la
+total 12
+drwxrwxr-x  2 niyonzima niyonzima 4096 Mar  8 22:04 .
+drwxr-xr-x 33 niyonzima niyonzima 4096 Mar  8 22:00 ..
+-rw-rw-r--  1 niyonzima niyonzima  168 Mar  8 22:04 script.sh
+niyonzima@niyonzima-VirtualBox:~/testedc$ chmod 755 script.sh
+niyonzima@niyonzima-VirtualBox:~/testedc$ ./script.sh dolecel mukuta mutabazi dada
+./script.sh: line 2: 4: command not found
+./script.sh: line 4: echo,: command not found
+ name = dolecel 
+ name 1=mukuta 
+ name 2=mutabazi 
+ name 3=dada  
+ 4 names have been added 
+niyonzima@niyonzima-VirtualBox:~/testedc$ git config --global user.name "drocelle"
+niyonzima@niyonzima-VirtualBox:~/testedc$ git config --global user.email "nyirabikarid@yahoo.com"
+niyonzima@niyonzima-VirtualBox:~/testedc$ git init
+Initialized empty Git repository in /home/niyonzima/testedc/.git/
+niyonzima@niyonzima-VirtualBox:~/testedc$ git add names.txt
+niyonzima@niyonzima-VirtualBox:~/testedc$ git add script.sh
+niyonzima@niyonzima-VirtualBox:~/testedc$ git status
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#       new file:   names.txt
+#       new file:   script.sh
+#
+niyonzima@niyonzima-VirtualBox:~/testedc$ git add .
+niyonzima@niyonzima-VirtualBox:~/testedc$ git add .
+niyonzima@niyonzima-VirtualBox:~/testedc$ git add names.txt
+niyonzima@niyonzima-VirtualBox:~/testedc$ git add script.sh
+niyonzima@niyonzima-VirtualBox:~/testedc$ git add .                                                                                            
+niyonzima@niyonzima-VirtualBox:~/testedc$ git status
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#       new file:   names.txt
+#       new file:   script.sh
+#
+niyonzima@niyonzima-VirtualBox:~/testedc$ git commit -m 'linux assignment'
+[master (root-commit) e237f1e] linux assignment
+ 2 files changed, 11 insertions(+)
+ create mode 100644 names.txt
+niyonzima@niyonzima-VirtualBox:~/testedc$ git remote add origin https://github.com/drocelle/testedc.git
+niyonzima@niyonzima-VirtualBox:~/testedc$ git push -u origin master                                                                            
+Username for 'https://github.com': drocelle                                                                                                    
+Password for 'https://drocelle@github.com':                                                                                                    
+Counting objects: 4, done.                                                                                                                     
+Compressing objects: 100% (3/3), done.                                                                                                         
+Writing objects: 100% (4/4), 386 bytes, done.                                                                                                  
+Total 4 (delta 0), reused 0 (delta 0)                                                                                                          
+To https://github.com/drocelle/testedc.git                                                                                                     
+ * [new branch]      master -> master                                                                                                          
+Branch master set up to track remote branch master from origin.                                                                                
+niyonzima@niyonzima-VirtualBox:~/testedc$     

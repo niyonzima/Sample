@@ -1,0 +1,22 @@
+              
+          LIST OF COMMANDS USED IN LINUX:
+
+             
+            Disk  space:ls -lsr
+                        df -h
+                        df -i
+            Dir navigation: cd
+                            pushd
+           File searching:ls -lrt
+                          find
+                          grep
+          Archives and compression:gpg – file
+                                  gpg file.gpg
+                                  tar tvf archive_name.tar
+          System administrator:uname -a
+                              lsub -tv
+                              head -nl/etc/issue
+          Interactive:readline
+                      screen
+                      cm
+       Others commands :tar,ssh,sed,awk,vin,sort,export,ls,ls -l,ls -a,pwd,cd,gzip,bzip2,unzip,shutdown -r now,free,top,df,kill,rm,cp,mv,chmod,mkdir,su and sudo apt -get install,sudo apt -get update,sudo apt -get upgrade etc.
